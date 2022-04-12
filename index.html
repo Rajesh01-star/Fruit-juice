@@ -1,215 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-  <link rel="stylesheet" href="style.css">
-  <title>Clean Juice</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- my css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="public/styles/file.css">
+    <link rel="icon" type="image/x-icon" href="public/img/favicon.ico">    <title>Clean Juice</title>
 </head>
-
 <body>
+    <div class="wrapper">
+        <div class="row navbar">
+        <div class="logo three columns">Clean Juice</div>
 
-  <div class="wrapper">
-    <div class="nav">
-      <div class="logo">Clean Juice</div>
+        <div class="menuLinks five columns row">
+            <li class="two columns">Locations</li>
+            <li class="two columns">Our menu</li>
+            <li class="two columns">Our story</li>
+            <li class="two columns">Meet our team</li>
+            <li class="two columns">Own a clean juice</li>
+            <li class="two columns">contact Us</li>
+        </div>
 
-      <div class="menu-links">
-        <ul>
-          <li>locations</li>
-          <li>our menu</li>
-          <li>our story</li>
-          <li>meet our teem</li>
-          <li>own a clean juice</li>
-          <li>contact us</li>
-        </ul>
-      </div>
+        <div class="lee four columns row">
+        <div class="search one-third column common"><i class="fa fa-search"></i></div>
+        <div class="text one-third column common">My account</div>
+        <div class="shop one-third column common"><i class="i fa fa-shopping-cart"></i></div>
+        </div>
+    </div>
+    <!-- navbar ends here -->
 
-      <div class="search"><i class="fa fa-search"></i></div>
+    
+    
+    <!-- slider -->
 
-      <div class="account">my account</div>
+    <div class="container row second">
+        <div class="tagline one-half column">Find your clean juice</div>
+        <div class="one-half column hold"><span class="big">1</span>/4</div>
+    </div>
+        
 
-      <div class="cart"><i class="i fa fa-shopping-cart"></i></div>
+    <div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+        <div class="main container">Orange</div>
+            <div class="juice">
+        <img src="public/img/orange.png" alt="">
+    </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="main container">Gold</div>
+            <div class="juice">
+        <img src="public/img/gold.png" alt="">
+    </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="main container">Pink</div>
+            <div class="juice">
+        <img src="public/img/pink.png" alt="">
+    </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="main container">Berry</div>
+            <div class="juice">
+        <img src="public/img/red.png" alt="">
+    </div>
+    </div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev prev commonButton"></div>
+  <div class="swiper-button-next next commonButton"></div>
+
+  <!-- If we need scrollbar -->
+</div>
+<!-- swiper ends here -->
+
+
+        <div class="container third row">
+        <button class="btn one-half column">show all juices</button>
+
+        <div class="details one-half column ">
+            <p class="sideMain">
+            Your <span>healthy</span> life <br>
+            starts here with us
+            </p>
+            <p class="following">
+            A family owned company founded with the purpose of giving your family access to clean, organic products while
+            you are on the go.
+           </p>
+        </div>
+        </div>
+
     </div>
 
-    <div class="content">
-      <div class="tagline">Find your clean juice</div>
 
-      <div class="pages"><span>2</span>/21</div>
-
-      <div class="title">orange</div>
-
-      <div class="more"><a href="#">show all the juices</a></div>
-
-      <div class="desc">
-        <p>
-          Your <span>healthy</span> life <br>
-          starts here with us
-        </p>
-        <p>
-          A family owned company founded with the purpose of giving your family access to clean, organic products while
-          you are on the go.
-        </p>
-      </div>
-    </div>
-
-    <div class="juice">
-      <img src="./img/juice.png" alt="">
-    </div>
 
     <div class="leaves">
-      <ul id="scene">
-        <li class="layer" data-depth="-.1">
-          <img src="./img/leaf01.png" alt="">
-        </li>
-        <li class="layer" data-depth="-.3">
-          <img src="./img/leaf02.png" alt="">
-        </li>
-        <li class="layer" data-depth="-1.5">
-          <img src="./img/leaf03.png" alt="">
-        </li>
-        <li class="layer" data-depth=".1">
-          <img src="./img/leaf04.png" alt="">
-        </li>
-        <li class="layer" data-depth=".3">
-          <img src="./img/leaf05.png" alt="">
-        </li>
-      </ul>
-    </div>
-
-    <div class="arrows">
-      <button class="prev"><i class="fa fa-chevron-left"></i></button>
-      <button class="next"><i class="fa fa-chevron-right"></i></button>
+        <ul id="scene">
+            <li class="layer" data-depth="-.1"><img src="public/img/leaf01.png"></li>
+            <li class="layer" data-depth="-.3"><img src="public/img/leaf02.png"></li>
+            <li class="layer" data-depth="-.1.5"><img  src="public/img/leaf03.png" ></li>
+            <li class="layer" data-depth="-.1"><img src="public/img/leaf04.png"></li>
+            <li class="layer" data-depth="-.3"><img src="public/img/leaf05.png"></li>
+        </ul>
     </div>
 
 
-  </div>
-  <script>
-    var scene = document.getElementById('scene');
-    var parallax = new Parallax(scene);
 
-    TweenMax.from(".logo", 1, {
-      opacity: 0,
-      x: -20,
-      ease: Expo.easeInOut
-    })
 
-    TweenMax.staggerFrom(".menu-links ul li", 1, {
-      opacity: 0,
-      x: -20,
-      ease: Power3.easeInOut
-    }, 0.08)
-
-    TweenMax.from(".search", 1, {
-      delay: .5,
-      opacity: 0,
-      x: -20,
-      ease: Expo.easeInOut
-    })
-
-    TweenMax.from(".account", 1, {
-      delay: .6,
-      opacity: 0,
-      x: -20,
-      ease: Expo.easeInOut
-    })
-
-    TweenMax.from(".cart", 1, {
-      delay: .7,
-      opacity: 0,
-      x: -20,
-      ease: Expo.easeInOut
-    })
-
-    TweenMax.from(".juice", 1, {
-      delay: 2,
-      opacity: 0,
-      y: -800,
-      ease: Expo.easeInOut
-    })
-
-    TweenMax.from(".leaves .layer:nth-child(1)", 2, {
-      delay: 2,
-      opacity: 0,
-      y: -800,
-      ease: Expo.easeInOut
-    })
-
-    TweenMax.from(".leaves .layer:nth-child(2)", 2, {
-      delay: 2.1,
-      opacity: 0,
-      y: -800,
-      ease: Expo.easeInOut
-    })
-
-    TweenMax.from(".leaves .layer:nth-child(3)", 2, {
-      delay: 2.2,
-      opacity: 0,
-      y: -800,
-      ease: Expo.easeInOut
-    })
-
-    TweenMax.from(".leaves .layer:nth-child(4)", 2, {
-      delay: 2.3,
-      opacity: 0,
-      y: -800,
-      ease: Expo.easeInOut
-    })
-
-    TweenMax.from(".leaves .layer:nth-child(5)", 2, {
-      delay: 2.5,
-      opacity: 0,
-      y: -800,
-      ease: Expo.easeInOut
-    })
-
-    TweenMax.from(".title", 1, {
-      delay: 1,
-      opacity: 0,
-      y: 20,
-      ease: Expo.easeInOut
-    })
-
-    TweenMax.from(".tagline", 1, {
-      delay: 1.3,
-      opacity: 0,
-      y: 20,
-      ease: Expo.easeInOut
-    })
-
-    TweenMax.from(".pages", 1, {
-      delay: 1.3,
-      opacity: 0,
-      y: 20,
-      ease: Expo.easeInOut
-    })
-
-    TweenMax.from(".more", 1, {
-      delay: 1.4,
-      opacity: 0,
-      y: 20,
-      ease: Expo.easeInOut
-    })
-
-    TweenMax.from(".desc", 1, {
-      delay: 1.4,
-      opacity: 0,
-      y: 20,
-      ease: Expo.easeInOut
-    })
-
-    TweenMax.from(".arrows", 1, {
-      delay: 2,
-      opacity: 0,
-      ease: Expo.easeInOut
-    })
-
-  </script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script defer type="module" src="public/js/script.js"></script>
+    
 </body>
-
 </html>
